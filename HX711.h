@@ -51,7 +51,7 @@ class HX711
 		void tare(byte times = 10);
 
 		// set the SCALE value; this value is used to convert the raw data to "human readable" data (measure units)
-		void set_scale(float scale = 1.f);
+		void set_scale(float scale = 3.f);
 
 		// get the current SCALE
 		float get_scale();
